@@ -28,5 +28,5 @@ public class FileController {
         return new ResponseEntity<>(fileRepository.findById(id), HttpStatus.OK);
     }
 
-    
+
 }
