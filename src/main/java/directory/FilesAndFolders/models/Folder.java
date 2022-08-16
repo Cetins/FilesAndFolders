@@ -81,5 +81,9 @@ public class Folder {
     public void setUsers(List<User> users) {
         this.users = users;
     }
+
+    public void addFile(File file) {
+        this.files.add(file);
+    }
 }
 
