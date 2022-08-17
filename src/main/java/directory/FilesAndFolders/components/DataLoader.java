@@ -25,6 +25,7 @@ public class DataLoader implements ApplicationRunner {
 
     public DataLoader() {}
 
+    @Override
     public void run(ApplicationArguments args) {
         Folder documents = new Folder("Documents");
         folderRepository.save(documents);

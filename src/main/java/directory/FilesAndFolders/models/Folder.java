@@ -19,7 +19,7 @@ public class Folder {
     private String title;
 
     @OneToMany
-    @JoinColumn(name = "file_id", nullable = false)
+    @JoinColumn(name = "file_id")
     @JsonIgnoreProperties({"folder"})
     private List<File> files;
 
